@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    /* background-color: aliceblue; */
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.gameName{
+    background-color: rgb(38, 18, 57);
+    color: aliceblue;
+    height: 4rem;
+    /* width: 100vw; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon{
+    height: 13rem;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+}
+.circle{
+    background-color: white;
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle:hover{
+    border: .3rem solid black;
+}
+#rock{
+    background-color: rgb(244, 102, 102);
+    color: rgb(20, 17, 17);
+    
+}
+#paper{
+    background-color: rgb(53, 236, 90);
+    color: rgb(22, 66, 187);
+}
+#scissor{
+    background-color: rgb(95, 95, 218);
+    color: cornsilk;
+}
+.circle i{
+    font-size: 4rem;
+}
+
+.count{
+    display: flex;
+    margin: 1rem auto 1rem auto;
+    justify-content: center;
+    gap: 4rem;
+}
+.count1{
+    text-align: center;
+}
+.number1,.number2{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.name{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+    margin: 3rem auto 3rem auto;
+}
+.purple{
+    background-color: rgb(38, 18, 57);
+    color: aliceblue;
+}
+.red{
+    background-color: red;
+    color: aliceblue;
+}
+.green{
+    background-color: green;
+    color: aliceblue;
+}
+.burlywood{
+    background-color: burlywood;
+    color: black;
+}
+.massage{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    
+    
+    font-size: 2rem;
+    padding: .5rem 1.2rem 0.5rem 1.2rem;
+    height: 3rem;
+    border: .1rem solid black;
+}
+
+.newGame{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+#newgame{
+    background-color: rgb(38, 18, 57);
+    color: aliceblue;
+    font-size: 1.2rem;
+    border-radius: .3rem;
+    padding: .2rem .3rem .2rem .3rem;
+    
+}
+.dis{
+    display: none;
+}
+.reStart{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+#reSt{
+    background-color: red;
+    color: black;
+    font-weight: 700;
+    font-size: 1.1rem;
+    border-radius: .3rem;
+    padding: .2rem .3rem .2rem .3rem;
+    
+}
+
+.footer{
+    height: 1rem;
+    background-color: rgb(38, 18, 57);
+}
