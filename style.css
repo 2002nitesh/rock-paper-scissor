@@ -17,6 +17,9 @@
     width: 100vw;
     height: 80vh;
     margin: 0rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .gameName{
